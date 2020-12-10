@@ -1,0 +1,67 @@
+Output:
+-- CRC CHECKER AND GENERATOR --
+Enter the number of message bits:
+7
+Enter the bits:
+1
+0
+1
+0
+0
+0
+0
+Enter the number of key/generator bits:
+4
+Enter the bits:
+1
+0
+0
+1
+CRC: 011
+SenderTransmitted message: 1010000011
+ReceiverEnter the Received message: 1
+0
+1
+0
+0
+0
+0
+0
+1
+1
+CRC: 000
+No error in received message.
+Received message: 1010000
+Continue? Y
+Enter the number of message bits:
+7
+Enter the bits:
+1
+0
+1
+0
+0
+0
+0
+Enter the number of key/generator bits:
+4
+Enter the bits:
+1
+0
+0
+1
+CRC: 011
+SenderTransmitted message: 1010000011
+ReceiverEnter the Received message: 1
+1
+0
+1
+0
+0
+0
+0
+1
+1
+CRC: 111
+Error detected!
+Continue? N
